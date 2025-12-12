@@ -25,9 +25,7 @@ The full API of this library can be found in [api.md](api.md).
 ```js
 import OpenMeteo from 'open-meteo';
 
-const client = new OpenMeteo({
-  apiKey: process.env['OPEN_METEO_API_KEY'], // This is the default and can be omitted
-});
+const client = new OpenMeteo();
 
 const forecast = await client.forecast.retrieve({ latitude: 0, longitude: 0 });
 
@@ -42,9 +40,7 @@ This library includes TypeScript definitions for all request params and response
 ```ts
 import OpenMeteo from 'open-meteo';
 
-const client = new OpenMeteo({
-  apiKey: process.env['OPEN_METEO_API_KEY'], // This is the default and can be omitted
-});
+const client = new OpenMeteo();
 
 const params: OpenMeteo.ForecastRetrieveParams = { latitude: 0, longitude: 0 };
 const forecast: OpenMeteo.ForecastRetrieveResponse = await client.forecast.retrieve(params);
