@@ -115,6 +115,8 @@ export namespace ForecastRetrieveResponse {
 
     shortwave_radiation_sum?: Array<number>;
 
+    snowfall_sum?: Array<number>;
+
     sunrise?: Array<number>;
 
     sunset?: Array<number>;
@@ -235,6 +237,7 @@ export interface ForecastRetrieveParams {
   daily?: Array<
     | 'temperature_2m_max'
     | 'temperature_2m_min'
+    | 'snowfall_sum'
     | 'apparent_temperature_max'
     | 'apparent_temperature_min'
     | 'precipitation_sum'
