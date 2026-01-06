@@ -24,7 +24,7 @@ describe('resource forecast', () => {
       longitude: 0,
       current_weather: true,
       daily: ['temperature_2m_max'],
-      hourly: ['temperature_2m'],
+      hourly: ['dew_point_2m'],
       past_days: 1,
       temperature_unit: 'celsius',
       timeformat: 'iso8601',
