@@ -1,6 +1,6 @@
 {
   "name": "open-meteo",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "The official TypeScript library for the Open Meteo API",
   "author": "Open Meteo <info@open-meteo.com>",
   "types": "dist/index.d.ts",
