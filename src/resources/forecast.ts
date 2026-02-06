@@ -255,8 +255,6 @@ export interface ForecastRetrieveParams {
   >;
 
   hourly?: Array<
-    | 'temperature_2m'
-    | 'relative_humidity_2m'
     | 'dew_point_2m'
     | 'apparent_temperature'
     | 'pressure_msl'

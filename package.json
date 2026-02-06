@@ -1,14 +1,14 @@
 {
   "name": "open-meteo",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "The official TypeScript library for the Open Meteo API",
   "author": "Open Meteo <info@open-meteo.com>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
-  "repository": "github:stainless-sdks/open-meteo-typescript",
+  "repository": "github:etkramer/open-meteo-typescript",
   "license": "Apache-2.0",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.27.0",
   "files": [
     "**/*"
   ],

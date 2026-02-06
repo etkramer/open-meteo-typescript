@@ -1,4 +1,4 @@
 configured_endpoints: 1
-openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/none-etkramer%2Fopen-meteo-27c823290b158fa182c4b71acfc4b9f8bb4b40b51a4bd47d7c98b6502999e077.yml
-openapi_spec_hash: 9f76915bfea03d040b52b3dcb5ad62ae
-config_hash: 01a6778de01690f8c4e5f790934c9222
+openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/etkramer%2Fopen-meteo-b3b0ae2578fba9c6dc0e88d7bc1fd0fc74199f4b4de6ba617c5505bbbc94c25f.yml
+openapi_spec_hash: 17e3d69c5b6d669683116810baf06961
+config_hash: 9c0763591fc91526cc2977f272797e42

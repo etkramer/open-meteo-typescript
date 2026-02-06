@@ -11,7 +11,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:stainless-sdks/open-meteo-typescript.git
+npm install git+ssh://git@github.com:etkramer/open-meteo-typescript.git
 ```
 
 > [!NOTE]
@@ -56,15 +56,17 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-const forecast = await client.forecast.retrieve({ latitude: 0, longitude: 0 }).catch(async (err) => {
-  if (err instanceof OpenMeteo.APIError) {
-    console.log(err.status); // 400
-    console.log(err.name); // BadRequestError
-    console.log(err.headers); // {server: 'nginx', ...}
-  } else {
-    throw err;
-  }
-});
+const forecast = await client.forecast
+  .retrieve({ latitude: 0, longitude: 0 })
+  .catch(async (err) => {
+    if (err instanceof OpenMeteo.APIError) {
+      console.log(err.status); // 400
+      console.log(err.name); // BadRequestError
+      console.log(err.headers); // {server: 'nginx', ...}
+    } else {
+      throw err;
+    }
+  });
 ```
 
 Error codes are as follows:
@@ -334,7 +336,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/open-meteo-typescript/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/etkramer/open-meteo-typescript/issues) with questions, bugs, or suggestions.
 
 ## Requirements
 
